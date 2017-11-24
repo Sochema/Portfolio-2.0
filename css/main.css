@@ -117,14 +117,20 @@ h4 a:hover{
 
 /*-----------  FOOTER -------------*/
 
+.social {
+  text-align: center;
+}
+
 .social a{
-  font-size: 35px;
+  font-size: 45px;
   color: white;
+  padding-left:3%;
+  padding-right: 3%;
 }
 
 .social a:hover{
-  font-size: 40px;
-
+  font-size: 60px;
+  transition: 0.7s;
 }
 
 /*------ SECTIONS ----------*/
