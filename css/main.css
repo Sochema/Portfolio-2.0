@@ -1,0 +1,179 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background-color: #F5E1DA;
+}
+
+@font-face {
+  font-family: 'Urban Jungle';
+  src: url('../Urban/UrbanJungleDEMO.otf');
+}
+
+nav{
+  background-color: #FFD05B;
+}
+
+
+nav a{
+  font-family: 'Urban Jungle', sans-serif;
+  color: #F5E1DA;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Urban Jungle', sans-serif;
+  font-size: 133px;
+  text-align: center;
+  color: white;
+  text-shadow: 5px -2px 0px #FFD05B;
+  padding-top: 10%;
+   word-wrap: break-word;
+}
+
+#picture {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+#picture p{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Allura';
+  color: white;
+}
+
+
+
+.image{
+  height: 85%;
+}
+
+h2{
+  font-size: 100px;
+  font-family: "Urban Jungle";
+  color: white;
+  text-shadow: 5px -2px 0px #FFD05B;
+  text-align: center;
+   word-wrap: break-word;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Urban Jungle";
+  color: black;
+  text-align: center;
+  padding-top: 5%;
+   word-wrap: break-word;
+}
+
+h4 {
+
+  font-family: "Urban Jungle";
+  color: black;
+  text-align: center;
+   word-wrap: break-word;
+}
+
+h4 a{
+  color: #FFD05B;
+  opacity: 0.6;
+   word-wrap: break-word;
+}
+
+h4 a:hover{
+  text-decoration: none;
+  color: #FFD05B;
+  opacity: 1;
+}
+
+.card {
+  overflow: auto;
+}
+
+.card-title{
+  margin: auto;
+}
+
+.card p {
+  color: black;
+   word-wrap: break-word;
+}
+
+.description p{
+  text-align: center;
+}
+
+
+/*-----------  FOOTER -------------*/
+
+.social a{
+  font-size: 35px;
+  color: white;
+}
+
+.social a:hover{
+  font-size: 40px;
+
+}
+
+/*------ SECTIONS ----------*/
+
+.contenant{
+  margin-top: 10%;
+}
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+}
+
+@media (max-width: 400px){
+  h1{
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .home p{
+    font-size: 25px;
+  }
+
+  .image{
+    height: 50%;
+  }
+
+}
+
+
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
