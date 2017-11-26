@@ -136,7 +136,8 @@ h4 a:hover{
 /*------ SECTIONS ----------*/
 
 .contenant{
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -154,7 +155,7 @@ h4 a:hover{
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .home p{
