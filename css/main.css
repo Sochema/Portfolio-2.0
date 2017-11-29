@@ -33,7 +33,7 @@ nav a:hover{
 
 h1{
   font-family: 'Urban Jungle', sans-serif;
-  font-size: 133px;
+  font-size: 80px;
   text-align: center;
   color: white;
   text-shadow: 5px -2px 0px #FFD05B;
@@ -47,21 +47,20 @@ h1{
   height: 100vh;
 }
 #picture p{
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
-  font-family: 'Montserrat Subrayada';
+  font-family: 'Urban Jungle';
   font-weight: bold;
   color: white;
 }
 
 
-
 .image{
-  height: 85%;
+  height: 60%;
 }
 
 h2{
-  font-size: 100px;
+  font-size: 40px;
   font-family: "Urban Jungle";
   color: white;
   text-shadow: 5px -2px 0px #FFD05B;
@@ -79,7 +78,7 @@ h3 {
 }
 
 h4 {
-  font-size: ;
+  font-size: 25px;
   font-family: "Urban Jungle";
   color: black;
   text-align: center;
@@ -87,7 +86,7 @@ h4 {
 }
 
 h4 a{
-  color: #FFD05B;
+  color: white;
   opacity: 0.6;
    word-wrap: break-word;
 }
@@ -98,6 +97,26 @@ h4 a:hover{
   opacity: 1;
 }
 
+h5 {
+  font-size: 25px;
+  font-family: "Urban Jungle";
+  color: black;
+  text-align: center;
+  word-wrap: break-word;
+}
+h5 a{
+  color: white;
+  opacity: 0.6;
+   word-wrap: break-word;
+}
+
+h5 a:hover{
+  text-decoration: none;
+  color: black;
+  opacity: 1;
+}
+
+
 .card {
   overflow: auto;
 }
@@ -106,12 +125,20 @@ h4 a:hover{
   margin: auto;
 }
 
-.card p {
+/*.card p {
+  font-family: 'Urban Jungle';
+  font-size: 10px;
   color: black;
-   word-wrap: break-word;
-}
+  justify-content: center;
+  word-wrap: break-word;
+}*/
 
 .description p{
+  font-family: 'Urban Jungle';
+  font-size: 10px;
+  color: black;
+  justify-content: center;
+  word-wrap: break-word;
   text-align: center;
 }
 
@@ -130,18 +157,23 @@ h4 a:hover{
 }
 
 .social a:hover{
-  font-size: 60px;
-  transition: 0.7s;
+  font-size: 50px;
+  transition: 0.2s;
 }
 
 /*------ SECTIONS ----------*/
 
 .contenant{
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 
+
+.button {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 @media (min-width: 992px) {
   body {
@@ -150,13 +182,17 @@ h4 a:hover{
 
 }
 
-@media (max-width: 400px){
+@media (min-width: 400px){
   h1{
-    font-size: 60px;
+    font-size: 160px;
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 100px;
+  }
+
+  h4 {
+    font-size: 25px;
   }
 
   .home p{
@@ -164,7 +200,12 @@ h4 a:hover{
   }
 
   .image{
-    height: 50%;
+    height: 85%;
+  }
+
+
+  #picture p{
+    font-size: 40px;
   }
 
 }
