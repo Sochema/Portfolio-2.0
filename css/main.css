@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-  background-color: #F5E1DA;
+  background-color: white;
 }
 
 @font-face {
@@ -45,6 +45,9 @@ h1{
   background-position: center;
   background-size: cover;
   height: 100vh;
+  /*background-attachment: fixed;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;*/
 }
 #picture p{
   font-size: 20px;
@@ -62,7 +65,7 @@ h1{
 h2{
   font-size: 40px;
   font-family: "Urban Jungle";
-  color: white;
+  color: #F5E1DA;
   text-shadow: 5px -2px 0px #FFD05B;
   text-align: center;
    word-wrap: break-word;
@@ -124,6 +127,7 @@ h5 a:hover{
 .card-title{
   margin: auto;
 }
+
 
 /*.card p {
   font-family: 'Urban Jungle';
