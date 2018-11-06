@@ -9,30 +9,78 @@ body {
   background-color: white;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Urban Jungle';
   src: url('../Urban/UrbanJungleDEMO.otf');
 }
+*/
 
 nav{
-  background-color: #ffff8c;
+  background-color: #ffed90;
 }
 
 
 nav a{
-  font-family: 'Urban Jungle', sans-serif;
-  color: #F5E1DA;
-  font-size: 25px;
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  /*font-size: 25px;*/
   text-decoration: none;
 }
 
 nav a:hover{
-  color: white;
+  color: #ffed90;
   text-decoration: none;
 }
 
+
+
+/*  NAVBAR */
+
+#NavBar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+
+}
+
+#NavBar .navbar-brand {
+  color: #ffed90;
+}
+
+#NavBar .navbar-nav {
+  margin-top: 1rem;
+  letter-spacing: 0.0625rem;
+}
+
+
+#NavBar .navbar-nav li.nav-item a.nav-link:hover {
+  color: #FFED90;
+}
+
+
+/*#NavBar .navbar-nav li.nav-item a.nav-link.active {
+  color: #18BC9C;
+}*/
+
+#NavBar .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+
+
+.btn {
+  border-width: 2px;
+}
+
+.bg-primary {
+  background-color: #18BC9C !important;
+}
+
+
+
 h1{
-  font-family: 'Urban Jungle', sans-serif;
+  font-family: 'Bungee', cursive;
   font-size: 80px;
   text-align: center;
   color: white;
@@ -180,11 +228,32 @@ h5 a:hover{
 }
 
 @media (min-width: 992px) {
-  body {
+/*  body {
     padding-top: 56px;
   }
+*/
+  #NavBar {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  #NavBar .navbar-nav {
+    margin:0 0;
+    padding: 0 0;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #NavBar .navbar-brand {
+    font-size: 27px;
+  }
+
 
 }
+
+
+
 
 @media (min-width: 400px){
   h1{
