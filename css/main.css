@@ -20,7 +20,7 @@ nav{
 }
 
 
-
+/* HEADER */
 
 
 header .masthead{
@@ -70,8 +70,6 @@ header .masthead{
 
 /* BUTTON */
 
-
-
 .btn {
   border-width: 2px;
 }
@@ -118,23 +116,13 @@ header .masthead{
   margin:auto;
 }
 
-/*h1{
-  font-family: 'Bungee', cursive;
-  font-size: 80px;
-  text-align: center;
-  color: white;
-  text-shadow: 5px -2px 0px #FFD05B;
-  padding-top: 10%;
-   word-wrap: break-word;
-}*/
+
 
 #picture {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  /*background-attachment: fixed;
- -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;*/
+
 }
 #picture p{
   font-size: 20px;
@@ -149,18 +137,11 @@ header .masthead{
   height: 60%;
 }
 
-/*h2{
-  font-size: 40px;
-  font-family: "Urban Jungle";
-  color: #F5E1DA;
-  text-shadow: 5px -2px 0px #FFD05B;
-  text-align: center;
-   word-wrap: break-word;
-}*/
+
 
 h2 {
   font-family: 'Bungee Shade', cursive;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
 }
 
