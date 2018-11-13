@@ -9,7 +9,6 @@ body {
   background-color: white;
 }
 
-
 hr {
   width: 30px;
   margin: 5px auto 5px auto;
@@ -88,6 +87,7 @@ nav{
 }
 
 
+
 /* HEADER */
 
 .masthead{
@@ -122,6 +122,13 @@ nav{
 
 
 
+h2 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+
 
 
 /*  SECTION 1 - VIDEO CARD --------------------*/
@@ -147,6 +154,9 @@ nav{
   border: none;
 }
 
+.card-title{
+  margin: auto;
+}
 
 /* SECTION 2 ---------- ARTICLES ------------*/
 
@@ -161,38 +171,59 @@ nav{
   margin-bottom: 7px;
 }
 
-
-
-
-
-
-
-#picture {
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-
-}
-#picture p{
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Urban Jungle';
-  font-weight: bold;
-  color: white;
-}
-
-
 .image{
   height: 60%;
 }
 
+/* AUDIO --------------*/
 
-
-h2 {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 40px;
-  text-align: center;
+section #audio ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  width: 600px;
+  height: 150px;
 }
+
+#audio ul li{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+}
+
+#audio ul li .audio1{
+  top: 0;
+  left: 0;
+}
+
+#audio ul li .audio2{
+  bottom: 0;
+  left: 25%;
+}
+
+#audio ul li .audio3{
+  top: 0;
+  left: 50%;
+}
+
+#audio ul li .audio4{
+  bottom: 0;
+  left: 75%;
+}
+
+#audio ul li .audio5{
+  top: 0;
+  left: 100%;
+}
+
+
+
 
 
 
@@ -206,102 +237,48 @@ h3 {
    word-wrap: break-word;
 }
 
-h4 {
-  font-size: 25px;
-  font-family: "Urban Jungle";
-  color: black;
-  text-align: center;
-  word-wrap: break-word;
-}
-
-h4 a{
-  color: white;
-  opacity: 0.6;
-   word-wrap: break-word;
-}
-
-h4 a:hover{
-  text-decoration: none;
-  color: #FFD05B;
-  opacity: 1;
-}
-
-h5 {
-  font-size: 25px;
-  font-family: "Urban Jungle";
-  color: black;
-  text-align: center;
-  word-wrap: break-word;
-}
-h5 a{
-  color: white;
-  opacity: 0.6;
-   word-wrap: break-word;
-}
-
-h5 a:hover{
-  text-decoration: none;
-  color: black;
-  opacity: 1;
-}
 
 
 
-
-.card-title{
-  margin: auto;
-}
-
-
-/*.card p {
-  font-family: 'Urban Jungle';
-  font-size: 10px;
-  color: black;
-  justify-content: center;
-  word-wrap: break-word;
-}*/
-
-.description p{
-  font-family: 'Urban Jungle';
-  font-size: 10px;
-  color: black;
-  justify-content: center;
-  word-wrap: break-word;
-  text-align: center;
-}
 
 
 /*-----------  FOOTER -------------*/
+
+footer{
+  background-color: #D9715B;
+}
+
 
 .social {
   text-align: center;
 }
 
 .social a{
-  font-size: 45px;
+  font-family:'Bungee Shade', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  text-shadow: 1px 2px #ffed90;
   color: white;
   padding-left:3%;
   padding-right: 3%;
 }
 
 .social a:hover{
-  font-size: 50px;
-  transition: 0.2s;
-}
-
-/*------ SECTIONS ----------*/
-
-.contenant{
-  margin-top: 7%;
-  margin-bottom: 7%;
+  font-size: 35px;
+  color: #ffed90;
 }
 
 
 
-/*.button {
-  margin-left: 5%;
-  margin-right: 5%;
-}*/
+/* FOOTER BUTTON */
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited{
+  width: 100%;
+  background-color: #ffed90 !important;
+  border: none;
+}
+
+
+
 
 @media (min-width: 992px) {
 /*  body {
@@ -311,7 +288,10 @@ h5 a:hover{
 
   header {
     width: 100%;
-    z-index: 1;
+  }
+
+  section{
+    height: 100vh;
   }
 
  #NavBar {
@@ -353,7 +333,8 @@ h5 a:hover{
 }
 
  h2 {
-   font-size: 60px;
+   font-size: 100px;
+   padding: 5px;
  }
  .card h3{
    font-size: 20px;
@@ -373,50 +354,17 @@ h5 a:hover{
     margin-bottom: 0;
   }
 
-
-
-
-
-}
-
-
-
-
-@media (min-width: 400px){
-
-
-  h4 {
-    font-size: 25px;
+  footer p {
+    font-size: 10px;
   }
 
-  .home p{
-    font-size: 25px;
-  }
-
-  .image{
-    height: 85%;
+  .social a:hover{
+    transition: 0.5s;
   }
 
 
-  #picture p{
-    font-size: 40px;
-  }
-
-}
 
 
 
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
 }
