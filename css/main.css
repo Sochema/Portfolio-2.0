@@ -177,50 +177,11 @@ h2 {
 
 /* AUDIO --------------*/
 
-section #audio ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin:0;
-  padding:0;
-  width: 600px;
-  height: 150px;
-}
 
-#audio ul li{
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  transform: rotate(45deg);
-  transition: 0.5s;
-  margin: -100px;
-}
 
-#audio ul li .audio1{
-  top: 0;
-  left: 0;
-}
 
-#audio ul li .audio2{
-  bottom: 0;
-  left: 25%;
-}
 
-#audio ul li .audio3{
-  top: 0;
-  left: 50%;
-}
 
-#audio ul li .audio4{
-  bottom: 0;
-  left: 75%;
-}
-
-#audio ul li .audio5{
-  top: 0;
-  left: 100%;
-}
 
 
 
