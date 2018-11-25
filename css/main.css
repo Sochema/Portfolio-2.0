@@ -252,7 +252,7 @@ footer{
   }
 
   section{
-    height: 100vh;
+    /*height: 100vh;*/
     padding: 46px 0;
   }
 
@@ -316,6 +316,22 @@ footer{
     margin-bottom: 0;
   }
 
+/*AUDIO */
+  .icons {
+    margin: 100px 0px;
+  }
+
+  #audio img:hover {
+    width: 110%;
+    -webkit-transition: width 3s,
+    transition: width .3s;
+    margin: auto;
+  }
+
+
+
+/*FOOTER */
+
   footer p {
     font-size: 10px;
   }
@@ -323,6 +339,8 @@ footer{
   .social a:hover{
     transition: 0.5s;
   }
+
+
 
 
 
