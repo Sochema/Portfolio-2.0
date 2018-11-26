@@ -10,8 +10,7 @@ body {
 }
 
 hr {
-  width: 30px;
-  margin: 5px auto 5px auto;
+  width: 70%;
 }
 
 p {
@@ -20,7 +19,9 @@ p {
 
 nav{
   background-color: #ffed90;
+  position: fixed;
 }
+
 
 
 /* HEADER */
@@ -178,24 +179,12 @@ h2 {
 /* AUDIO --------------*/
 
 
-
-
-
-
-
-
-
-
-
-
-
 h3 {
-  font-size: 30px;
-  font-family: "Urban Jungle";
+  font-size: 25px;
+  font-family: "Bungee Shade";
   color: black;
   text-align: center;
   padding-top: 5%;
-   word-wrap: break-word;
 }
 
 
@@ -218,15 +207,14 @@ footer{
   font-family:'Bungee Shade', cursive;
   text-decoration: none;
   font-size: 30px;
-  text-shadow: 1px 2px #ffed90;
+  text-shadow: 1px 2px #60CD8E;
   color: white;
   padding-left:3%;
   padding-right: 3%;
 }
 
 .social a:hover{
-  font-size: 35px;
-  color: #ffed90;
+  color: #60CD8E;
 }
 
 
@@ -330,17 +318,14 @@ footer{
 
 /*FOOTER */
 
+  .social ul li {
+    list-style: none;
+    display: inline;
+  }
+
   footer p {
     font-size: 10px;
   }
-
-  .social a:hover{
-    transition: 0.5s;
-  }
-
-
-
-
 
 
 
