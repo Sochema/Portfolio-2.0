@@ -188,6 +188,11 @@ h3 {
 }
 
 
+.icons {
+  margin: 20px auto 0 auto;
+  width: 60%;
+}
+
 
 
 
@@ -202,6 +207,12 @@ footer{
 .social {
   text-align: center;
 }
+
+.social ul li {
+  list-style: none;
+  display: inline;
+}
+
 
 .social a{
   font-family:'Bungee Shade', cursive;
@@ -309,19 +320,14 @@ footer{
     margin: 100px 0px;
   }
 
-  #audio img:hover {
+/*  #audio img:hover {
     width: 110%;
     -webkit-transition: width 3s,
     transition: width .3s;
     margin: auto;
-  }
+  }*/
 
 /*FOOTER */
-
-  .social ul li {
-    list-style: none;
-    display: inline;
-  }
 
   footer p {
     font-size: 10px;
