@@ -317,7 +317,8 @@ footer{
 
 /*AUDIO */
   .icons {
-    margin: 100px 0px;
+    margin: 100px auto 100px auto;
+    width: 100%;
   }
 
 /*  #audio img:hover {
