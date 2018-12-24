@@ -319,6 +319,7 @@ footer{
   .icons {
     margin: 100px auto 100px auto;
     width: 100%;
+    -webkit-width: 100%;
   }
 
 /*  #audio img:hover {
