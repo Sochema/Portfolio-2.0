@@ -24,8 +24,12 @@ nav{
 
 
 
-/* HEADER */
-
+/* AJ */
+.container-story{
+display: block;
+margin: 0 auto;
+max-width: 680px;
+}
 
 /*  NAVBAR */
 
@@ -134,7 +138,7 @@ h2 {
 
 /*  SECTION 1 - VIDEO CARD --------------------*/
 
-.card h3{
+h3 {
   font-size: 20px;
   font-family:'Anton', sans-serif;
   text-align: center;
@@ -145,13 +149,17 @@ h2 {
   text-shadow: 2px 2px black;
 }
 
+.ajtitle h3 {
+  margin-top: 50%;
+}
+
  .card p{
    text-align: center;
    font-size: 15px;
  }
 
 .card{
-  float: right;
+  float: center;
   border: none;
 }
 
@@ -175,27 +183,6 @@ h2 {
 .image{
   height: 60%;
 }
-
-/* AUDIO --------------*/
-
-
-h3 {
-  font-size: 25px;
-  font-family: "Bungee Shade";
-  color: black;
-  text-align: center;
-  padding-top: 5%;
-}
-
-
-.icons {
-  margin: 20px auto 0 auto;
-  width: 60%;
-}
-
-
-
-
 
 /*-----------  FOOTER -------------*/
 
@@ -315,27 +302,10 @@ footer{
     margin-bottom: 0;
   }
 
-/*AUDIO */
-  .icons {
-    margin: 100px auto 100px auto;
-    width: 100%;
-    -webkit-width: 100%;
-  }
 
-/*  #audio img:hover {
-    width: 110%;
-    -webkit-transition: width 3s,
-    transition: width .3s;
-    margin: auto;
-  }*/
 
 /*FOOTER */
 
   footer p {
     font-size: 10px;
   }
-
-
-
-
-}
